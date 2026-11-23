@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#F7F7F5" />
+  <title>B.A.Y.M.A.X. — Baymax Care Station</title>
+
+  <!-- Friendly rounded font. If offline, the CSS falls back to system sans-serif. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap"
+    rel="stylesheet"
+    onerror="this.remove()"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#screen">Skip to content</a>
+
+  <!-- The whole app is rendered into #app by js/main.js -->
+  <div id="app"></div>
+
+  <!-- Screen-reader live region for announcements -->
+  <div id="sr-status" class="sr-only" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <p style="padding:2rem;font-size:1.2rem;">
+      This app needs JavaScript. Please enable it and reload.
+    </p>
+  </noscript>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
